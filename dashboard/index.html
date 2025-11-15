@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RealCheck AI Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>RealCheck AI Dashboard</h1>
+
+    <section class="charts">
+        <canvas id="aiPieChart"></canvas>
+        <canvas id="typeBarChart"></canvas>
+    </section>
+
+    <h2>Analysis History</h2>
+    <table id="resultsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Input</th>
+                <th>Filename</th>
+                <th>Verdict</th>
+                <th>Explanation</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

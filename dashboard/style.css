@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #fafafa;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+th {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+canvas {
+    width: 400px !important;
+    height: 400px !important;
+}
