@@ -1,0 +1,11 @@
+# Ignore virtual environment folder
+venv/
+
+# Ignore compiled Python cache
+__pycache__/
+
+# Ignore environment variables file (contains API keys)
+.env
+
+# Ignore local database file
+realcheck.db
